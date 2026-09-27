@@ -8,6 +8,8 @@
   placement:
     mode: SnapgridCenter
   components:
+  - type: CMUReconFurniture
+    material: CouchMiddle
   - type: VehicleSmashable
     selfDamageMultiplier: 0.01
   - type: Transform
@@ -56,6 +58,8 @@
   id: RMCCouchEnd
   suffix: End, Double
   components:
+  - type: CMUReconFurniture
+    material: CouchLeft
   - type: Sprite
     state: couch_end
 
@@ -74,6 +78,8 @@
   id: RMCCouchEndAlt
   suffix: End, Double, Alt
   components:
+  - type: CMUReconFurniture
+    material: CouchLeft
   - type: Sprite
     state: couch_end
 
@@ -94,6 +100,8 @@
   name: red couch
   suffix: End, Lower
   components:
+  - type: CMUReconFurniture
+    material: CouchLeft
   - type: Sprite
     state: couch_end_lower
 
@@ -103,6 +111,8 @@
   name: red couch
   suffix: End, Upper
   components:
+  - type: CMUReconFurniture
+    material: CouchRight
   - type: Sprite
     state: couch_end_upper
 
@@ -122,6 +132,8 @@
   id: RMCCouchEndLowerBlack
   suffix: End, Lower
   components:
+  - type: CMUReconFurniture
+    material: CouchLeft
   - type: Sprite
     state: couch_end_lower
 
@@ -130,6 +142,8 @@
   id: RMCCouchEndUpperBlack
   suffix: End, Upper
   components:
+  - type: CMUReconFurniture
+    material: CouchRight
   - type: Sprite
     state: couch_end_upper
 
@@ -149,6 +163,8 @@
   id: RMCCouchEndLowerBrown
   suffix: End, Lower
   components:
+  - type: CMUReconFurniture
+    material: CouchLeft
   - type: Sprite
     state: couch_end_lower
 
@@ -157,6 +173,8 @@
   id: RMCCouchEndUpperBrown
   suffix: End, Upper
   components:
+  - type: CMUReconFurniture
+    material: CouchRight
   - type: Sprite
     state: couch_end_upper
 
@@ -176,6 +194,8 @@
   id: RMCCouchEndLowerBrownAlt
   suffix: End, Lower, Alt
   components:
+  - type: CMUReconFurniture
+    material: CouchLeft
   - type: Sprite
     state: couch_end_lower
 
@@ -184,6 +204,8 @@
   id: RMCCouchEndUpperBrownAlt
   suffix: End, Upper, Alt
   components:
+  - type: CMUReconFurniture
+    material: CouchRight
   - type: Sprite
     state: couch_end_upper
 
@@ -195,6 +217,8 @@
   name: bar booth
   description: An old wooden booth with red cushioning. There are stains in the cushions.
   components:
+  - type: CMUReconFurniture
+    material: CouchLeft
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Couches/couch_bar.rsi
     state: couch_left
@@ -204,5 +228,7 @@
   id: RMCCouchRightBar
   suffix: Right
   components:
+  - type: CMUReconFurniture
+    material: CouchRight
   - type: Sprite
     state: couch_right
